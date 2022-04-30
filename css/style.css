@@ -6,11 +6,11 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    /* padding: 80px; */
 }
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .grit-low .left-side{
     width: 45%;
@@ -136,7 +136,6 @@ margin-top: 30px;
     background-color: #F2F2F2;
 }
 .grit-full .num-prt{
-    /* padding: 40px 30px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,10 +162,99 @@ margin-top: 30px;
 }
 .grit-eva .logo{
     width: 15%;
-    /* height: 40%; */
 }
 .grit-eva .logo img{
     width: 100%;
 }
 
+.customer{
+    background-color: #F2F2F2;
+    padding: 40px 80px;
+    height: 100vh;
+}
 
+.customer h3{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.customer .flexing{
+    display: flex;
+    justify-items: center;
+}
+
+.customer .flexing img{
+    width: 15%;
+    padding-bottom: 20px;
+}
+.customer .text{
+    padding: 10px 0px 0px 10px;
+}
+.customer .prt1, .customer .prt2{
+    width: 48%;
+    background-color: #fff;
+    padding: 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.customer .text p{
+    font-size: 16px;
+    color: #939191;  
+}
+
+.customer .prt1 .p, .customer .prt2 .p{
+    font-size: 24px;
+    width: 100%;
+}
+.customer .lines{
+    margin-left: 460px;
+}
+
+.faq{
+    height: 100vh;
+    background-color: #E2E6E9;
+    padding: 0px 100px;
+}
+.faq .stub{
+    font-size: 48px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.faq .question1{
+    background-color: #fff;
+    font-size: 24px;
+    border: 3px solid #E2E6E9;
+    width: 100%;
+    padding: 18px;
+    text-align: left;
+
+}
+
+.plus{
+    background-color: #FF6433;
+    color: #fff;
+    text-align: right;
+    padding: 3px; 
+}
+
+.faq .question{
+    background-color: #fff;
+    font-size: 24px;
+    border: 3px solid #E2E6E9;
+    width: 100%;
+    padding: 18px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .question1 p{
+    width: 95%;
+    font-size: 18px;
+    color: #939191;
+    margin-top: 10px;
+    text-align: left;
+}
