@@ -135,6 +135,7 @@ margin-top: 30px;
     height: 30vh;
     background-color: #F2F2F2;
 }
+
 .grit-full .num-prt{
     display: flex;
     justify-content: center;
@@ -163,6 +164,7 @@ margin-top: 30px;
 .grit-eva .logo{
     width: 15%;
 }
+
 .grit-eva .logo img{
     width: 100%;
 }
@@ -213,7 +215,7 @@ margin-top: 30px;
 }
 
 .faq{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #E2E6E9;
     padding: 0px 100px;
 }
@@ -226,7 +228,7 @@ margin-top: 30px;
 .faq .question1{
     background-color: #fff;
     font-size: 24px;
-    border: 3px solid #E2E6E9;
+    border: 4px solid #E2E6E9;
     width: 100%;
     padding: 18px;
     text-align: left;
@@ -240,10 +242,24 @@ margin-top: 30px;
     padding: 3px; 
 }
 
+.minus-sign{
+    background-color: #FF6433;
+    color: #fff;
+    text-align: right;
+    padding: 5px; 
+}
+
+.minus{
+    display: flex;
+    justify-content: space-between;
+}
+
 .faq .question{
     background-color: #fff;
     font-size: 24px;
-    border: 3px solid #E2E6E9;
+    border: 4px #E2E6E9 solid;
+    color: #1E1B1B;
+    font-weight: 600 lighter;
     width: 100%;
     padding: 18px;
     text-align: left;
@@ -257,4 +273,72 @@ margin-top: 30px;
     color: #939191;
     margin-top: 10px;
     text-align: left;
+}
+/* contact-section */
+.contact{
+    height: 80vh;
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    color: #fff;
+
+}
+.contact .upper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.contact .upper .side-1, .contact .upper .side-2{
+    width: 48%;
+}
+.contact .upper .side-1 h3{
+    font-size: 48px;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+.contact .upper .side-1 .s-m{
+    display: flex;
+}
+.contact .upper .side-1 .s-m .media{
+    margin-right: 20px;
+}
+
+.contact .upper .side-2 p{
+    opacity: 0.6;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact .upper .side-2 h4{
+    font-size: 24px;
+    width: 100%;
+}
+
+.contact .upper .side-2 .number{
+    margin-top: 80px;
+}
+
+.contact .upper .side-2 .number, .contact .upper .side-2 .address, .contact .upper .side-2 .open{
+    margin-bottom: 25px;
+}
+
+.footer{
+    background-color: #1E1B1B;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-content: center;
+}
+
+.footer .service ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer .service ul li{
+    margin-right: 20px;
+}
+
+.footer .service ul li a{
+    text-decoration: none;
+    color: #fff;
 }
