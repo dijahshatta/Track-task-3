@@ -659,23 +659,6 @@ margin-top: 30px;
     .footer .service ul{
         padding: 10px;
     }
-    /* service section */
-    .service-section{
-        padding: 0;
-    }
-    .service-section .image-section{
-        width: 100%;
-        background-position: center;
-    }
-    .service-section .image-section img{
-        width: 100%;
-    }
-    .brand{
-        width: 20%;
-    }
-    .brand img{
-        width: 100%;
-    }
     
 }
 /* tablet view */
