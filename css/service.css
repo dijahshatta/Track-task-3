@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+    overflow-x: hidden;
+ }
 
 .container{
     width: 80%;
@@ -332,7 +336,7 @@
         width: 100%;
     }
     .footer{
-        padding: 20px;
+        padding: 10px;
     }
     .footer .service ul{
         padding: 10px;
